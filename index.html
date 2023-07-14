@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="Stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <title>Chatbot 🤖</title>
+</head>
+
+<body class="show__chatbot">
+    <button class="chatbot__toggler">
+        <span class="material-symbols-outlined">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="material-symbols-outlined">close</span>
+
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>Hello there <br> ¿Como puedo ayudarte hoy?</p>
+            </li>
+            <li class="chat outgoing">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+        </ul>
+        <div class="chat__input">
+            <textarea placeholder="Escriba su mensaje..."></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+</body>
+
+</html>
